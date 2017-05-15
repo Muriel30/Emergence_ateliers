@@ -1,6 +1,7 @@
 <div class="conteneurCentral">
 
 <div class="choix">
+<!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
    <h1><%= link_to "Espace ARTISTES", new_poi_path %></h1>
    <h1><%= link_to "Espace ARTISANS", new_poi_path %></h1>
@@ -21,5 +22,35 @@
 </div>
 
   <div class="box size6 color3">
-    <h1><%= link_to "Découvrir les ateliers géolocalisés", pois_path, class: "navbar-link" %></h1>
+    <h1><%= link_to "Découvrir les ateliers géolocalisés", pois_path, class: "navbar-link" %><%= cl_image_tag("carte_skojbr.png",
+      width: 900, height: 500, crop: :fill) %></h1>
   </div>
+
+  <div class="box size3 color3">
+    <%= cl_image_tag("zviap0wgrlgvu4jl4fpo.jpg",
+      width: 1300, height: 570, crop: :fill) %></div>
+
+<div class="choix">
+<!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+   <h1><%= link_to "Recevoir les actualités", new_poi_path %></h1>
+  </div>
+</div>
+
+  <div class="box size4 color4">
+    <%= cl_image_tag("cedric-lamballais-artisan-forgeron-coutelier-s-est_3233015_zjmm9q",
+      height: 570, crop: :fill) %>
+  </div>
+
+  <div class="box size6 color2"><%= cl_image_tag("soe-studio-about-2_oroszw.jpg",
+      height: 570, crop: :fill) %></div>
+
+<div class="box size4 color3"><%= cl_image_tag("1961-KusamastudioNY-full_janvoj.jpg",
+       height: 570, crop: :fill) %></div>
+
+  <div class="box size6 color3"><%= cl_image_tag("Screen-shot-2012-07-29-at-9.11.18-PM_n8wgz4",
+      height: 570, crop: :fill) %></div>
+
+  <div class="box size2 color2"><%= cl_image_tag("bl1ysuh9amb632r9w5hd.jpg",
+      width: 320, height: 560, crop: :fill) %></div>
+</div>
