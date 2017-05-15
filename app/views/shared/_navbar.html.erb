@@ -1,7 +1,10 @@
 <div class="navbar-wagon">
+ <%= cl_image_tag("logo_ateliers_3_qpjp49.png", :secure=>true, height: 350, crop: :fill) %>
+
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "" %>
+    <h1>Emergence - ATELIERS : L'art de vivre l'art... <h2>Art of living art...</h2><h4> Arte di vivir el arte... Kunst Lebenkunst... Arto di viva arto...</h4>
   <% end %>
 
   <!-- Right Navigation -->
@@ -61,6 +64,8 @@
     <%= link_to t(".top_call_to_action", default: "Post stuff"), "#", class: "navbar-wagon-item navbar-wagon-button btn" %>
   </div>
 
+
+
   <!-- Dropdown list appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
@@ -73,4 +78,5 @@
     </div>
   </div>
 </div>
+
 

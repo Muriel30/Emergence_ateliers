@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   resources :reviews, only: [:create, :destroy]
 
   end
-  #mount Attachinary::Engine => "/attachinary"
+ mount Attachinary::Engine => "/attachinary"
   end
 
 
